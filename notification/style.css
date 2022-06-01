@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+}
+.notification-card.success{
+    background-color: green;
+    border-color: rgb(2, 82, 2);
+}
+.notification-card.danger{
+    background-color: red;
+    border-color: rgb(117, 6, 6);
+
+}
+
+.notification-card.info{
+    background-color: blueviolet;
+    border-color: blue;
+}
+
+.notification-card.warning{
+    background-color: aqua;
+    border-color: rgb(15, 63, 47);
+}
+.form-control {
+    
+    background-color: aquamarine;
+    height: 30vh;
+    width: 70vh;
+   
+    margin-left: 380px;
+    margin-top: 100px;
+    padding-top: 2rem;
+    
+}   
+label{
+    padding: 2rem;
+}
+button{
+   
+    margin-left: 15rem;
+    margin-top: 1rem;
+}
+input {
+    margin: .2rem;
+    margin-left: .5rem;
+    width: 100px;
+}
+select{
+    margin: .2rem;
+    margin-left: 1.8rem;
+    width: 100px;
+
+}
+.notification-card{
+    height: 3rem;
+    width: 800px;
+    background-color: rgb(155, 132, 132);
+    border: 2px solid;
+    border-radius: 6px;
+    border-color: black;
+    margin: 10px;
+    opacity: 0;
+    margin-left: 100px;
+    
+    text-align: center;
+    position: relative;
+
+}
+.notification-card.show {
+    opacity: 1;
+  }
+  
+.close{
+   position: absolute;
+   top: 10px;
+   right: 2px;
+    margin: 0;
+    background: transparent;
+    color: white;
+    font-size: 130%;
+    border: none;
+    outline: none;
+}
+
