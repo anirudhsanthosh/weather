@@ -1,25 +1,7 @@
 *{
     margin: 0;
 }
-.notification-card.success{
-    background-color: green;
-    border-color: rgb(2, 82, 2);
-}
-.notification-card.danger{
-    background-color: red;
-    border-color: rgb(117, 6, 6);
 
-}
-
-.notification-card.info{
-    background-color: blueviolet;
-    border-color: blue;
-}
-
-.notification-card.warning{
-    background-color: aqua;
-    border-color: rgb(15, 63, 47);
-}
 .form-control {
     
     background-color: aquamarine;
